@@ -1,0 +1,74 @@
+2023-01-25 11:03:32.954 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-25 11:03:33.291 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-25 11:03:33.292 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-25 11:03:33.296 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-25 11:03:33.297 +03:00 [INF] Hosting environment: Development
+2023-01-25 11:03:33.297 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-25 11:03:34.202 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-25 11:03:34.250 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-25 11:03:34.303 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-25 11:03:34.312 +03:00 [INF] Bu ilk logum
+2023-01-25 11:03:34.333 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-25 11:03:34.489 +03:00 [INF] Executed ViewResult - view Index executed in 167.1584ms.
+2023-01-25 11:03:34.499 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 192.2582ms
+2023-01-25 11:03:34.501 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-25 11:03:34.542 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 342.6803ms
+2023-01-25 11:03:34.570 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-25 11:03:34.570 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-25 11:03:34.571 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-25 11:03:34.570 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-25 11:03:34.570 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-25 11:03:34.571 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-25 11:03:34.571 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-25 11:03:34.582 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 10.8162ms
+2023-01-25 11:03:34.587 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-25 11:03:34.595 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-25 11:03:34.595 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-25 11:03:34.595 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-25 11:03:34.612 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 41.1730ms
+2023-01-25 11:03:34.616 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 45.3574ms
+2023-01-25 11:03:34.596 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-25 11:03:34.595 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-25 11:03:34.597 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-25 11:03:34.600 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 29.2276ms
+2023-01-25 11:03:34.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 52.1829ms
+2023-01-25 11:03:34.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 54.7505ms
+2023-01-25 11:03:34.627 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.4421ms
+2023-01-25 11:03:34.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 57.7647ms
+2023-01-25 12:00:19.002 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-25 12:00:19.775 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-25 12:00:19.788 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-25 12:00:19.794 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-25 12:00:19.795 +03:00 [INF] Hosting environment: Development
+2023-01-25 12:00:19.796 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-25 12:00:21.805 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-25 12:00:21.939 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-25 12:00:22.052 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-25 12:00:22.065 +03:00 [INF] Bu ilk logum
+2023-01-25 12:00:22.086 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-25 12:00:22.516 +03:00 [INF] Executed ViewResult - view Index executed in 438.2783ms.
+2023-01-25 12:00:22.527 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 472.3063ms
+2023-01-25 12:00:22.528 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-25 12:00:22.601 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 805.2141ms
+2023-01-25 12:00:22.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-25 12:00:22.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-25 12:00:22.629 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-25 12:00:22.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-25 12:00:22.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-25 12:00:22.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-25 12:00:22.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-25 12:00:22.639 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-25 12:00:22.645 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 17.8152ms
+2023-01-25 12:00:22.662 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-25 12:00:22.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 52.3628ms
+2023-01-25 12:00:22.687 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-25 12:00:22.687 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-25 12:00:22.688 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-25 12:00:22.687 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-25 12:00:22.693 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-25 12:00:22.694 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 67.7199ms
+2023-01-25 12:00:22.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 69.7675ms
+2023-01-25 12:00:22.699 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 71.9854ms
+2023-01-25 12:00:22.701 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 74.6788ms
+2023-01-25 12:00:22.705 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 78.1820ms
+2023-01-25 12:00:22.864 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 225.3778ms
