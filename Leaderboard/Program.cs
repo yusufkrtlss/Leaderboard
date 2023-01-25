@@ -1,3 +1,10 @@
+
+using DataAccessLayer;
+
+using DataAccessLayer.Concrete.EntityFramework.Context;
+
+using EntityLayer.Concrete;
+using Leaderboard.Controllers;
 using Serilog;
 
 
@@ -11,12 +18,16 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 builder.Host.UseSerilog();
 
+// Add scoped service in Program.cs
+builder.Services.AddDbContext<LeaderboardDb>();
+
 
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
