@@ -109,3 +109,5 @@ C:\Users\Monster\Source\Repos\Leaderboard\Leaderboard\bin\Debug\net6.0\BusinessL
 C:\Users\Monster\Source\Repos\Leaderboard\Leaderboard\bin\Debug\net6.0\DataAccessLayer.dll
 C:\Users\Monster\Source\Repos\Leaderboard\Leaderboard\bin\Debug\net6.0\BusinessLayer.pdb
 C:\Users\Monster\Source\Repos\Leaderboard\Leaderboard\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\Monster\source\repos\Leaderboard\Leaderboard\bin\Debug\net6.0\CoreLayer.dll
+C:\Users\Monster\source\repos\Leaderboard\Leaderboard\bin\Debug\net6.0\CoreLayer.pdb

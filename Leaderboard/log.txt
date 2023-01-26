@@ -548,3 +548,1224 @@ System.InvalidOperationException: Unable to resolve service for type 'BusinessLa
 2023-01-25 19:04:54.879 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
 2023-01-25 19:04:54.886 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.3306ms
 2023-01-25 19:04:54.902 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.5277ms
+2023-01-26 15:48:08.224 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 15:48:08.785 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 15:48:08.787 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 15:48:08.793 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 15:48:08.795 +03:00 [INF] Hosting environment: Development
+2023-01-26 15:48:08.797 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 15:48:12.844 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 15:48:12.916 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 15:48:12.989 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 15:48:14.582 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 15:48:14.800 +03:00 [INF] Executed ViewResult - view Index executed in 222.4916ms.
+2023-01-26 15:48:14.809 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 1817.8034ms
+2023-01-26 15:48:14.812 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 15:48:14.855 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 2016.3847ms
+2023-01-26 15:48:14.886 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-26 15:48:14.886 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-26 15:48:14.886 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-26 15:48:14.887 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-26 15:48:14.887 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 15:48:14.887 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-26 15:48:14.888 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-26 15:48:14.900 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 12.8997ms
+2023-01-26 15:48:14.916 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 15:48:14.918 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-26 15:48:14.933 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-26 15:48:14.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 46.8135ms
+2023-01-26 15:48:14.918 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-26 15:48:14.952 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 64.2814ms
+2023-01-26 15:48:14.963 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 77.1642ms
+2023-01-26 15:48:14.918 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-26 15:48:14.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 86.7988ms
+2023-01-26 15:48:14.979 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-26 15:48:14.983 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 96.7448ms
+2023-01-26 15:48:15.016 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-26 15:48:15.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 101.5055ms
+2023-01-26 15:48:15.018 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 131.3536ms
+2023-01-26 15:48:15.105 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/favicon.ico - -
+2023-01-26 15:48:15.113 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\favicon.ico'
+2023-01-26 15:48:15.115 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/favicon.ico - - - 200 5430 image/x-icon 9.7212ms
+2023-01-26 15:48:18.168 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-01-26 15:48:18.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css.map - -
+2023-01-26 15:48:18.189 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-01-26 15:48:18.191 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 23.5021ms
+2023-01-26 15:48:18.216 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2023-01-26 15:48:18.218 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 449111 text/plain 45.5808ms
+2023-01-26 15:48:48.933 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 15:48:49.310 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 15:48:49.313 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 15:48:49.318 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 15:48:49.320 +03:00 [INF] Hosting environment: Development
+2023-01-26 15:48:49.321 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 15:48:50.089 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 15:48:50.197 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 15:48:50.263 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 15:48:52.827 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 15:48:52.973 +03:00 [INF] Executed ViewResult - view Index executed in 157.3656ms.
+2023-01-26 15:48:52.979 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2713.6107ms
+2023-01-26 15:48:52.980 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 15:48:53.008 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 2925.1695ms
+2023-01-26 15:48:53.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-26 15:48:53.037 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-26 15:48:53.041 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-26 15:48:53.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-26 15:48:53.038 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-26 15:48:53.038 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-26 15:48:53.060 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 15:48:53.063 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 15:48:53.083 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 22.9021ms
+2023-01-26 15:48:53.092 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-26 15:48:53.092 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-26 15:48:53.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 58.8180ms
+2023-01-26 15:48:53.102 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 63.0577ms
+2023-01-26 15:48:53.093 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-26 15:48:53.105 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-26 15:48:53.092 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-26 15:48:53.092 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-26 15:48:53.108 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 70.8866ms
+2023-01-26 15:48:53.109 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 73.9864ms
+2023-01-26 15:48:53.111 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 73.7320ms
+2023-01-26 15:48:53.112 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 74.6629ms
+2023-01-26 15:48:53.118 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.1878ms
+2023-01-26 15:48:56.413 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-01-26 15:48:56.425 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-01-26 15:48:56.426 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css.map - -
+2023-01-26 15:48:56.429 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 15.7152ms
+2023-01-26 15:48:56.441 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2023-01-26 15:48:56.443 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 449111 text/plain 16.9772ms
+2023-01-26 15:49:11.903 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 15:49:12.241 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 15:49:12.242 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 15:49:12.247 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 15:49:12.248 +03:00 [INF] Hosting environment: Development
+2023-01-26 15:49:12.249 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 15:49:13.036 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 15:49:13.089 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 15:49:13.134 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 15:49:35.357 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 15:49:35.503 +03:00 [INF] Executed ViewResult - view Index executed in 151.9346ms.
+2023-01-26 15:49:35.509 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 22371.3252ms
+2023-01-26 15:49:35.513 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 15:49:35.538 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 22508.2482ms
+2023-01-26 15:49:35.565 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-26 15:49:35.565 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-26 15:49:35.567 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 15:49:35.565 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-26 15:49:35.565 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-26 15:49:35.565 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-26 15:49:35.565 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-26 15:49:35.580 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 14.1336ms
+2023-01-26 15:49:35.596 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 15:49:35.616 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-26 15:49:35.616 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-26 15:49:35.619 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-26 15:49:35.619 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-26 15:49:35.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 58.4398ms
+2023-01-26 15:49:35.621 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 57.1404ms
+2023-01-26 15:49:35.623 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-26 15:49:35.620 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 55.9954ms
+2023-01-26 15:49:35.619 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-26 15:49:35.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 61.6983ms
+2023-01-26 15:49:35.636 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 71.9728ms
+2023-01-26 15:49:35.639 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 74.2558ms
+2023-01-26 15:49:35.642 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.4490ms
+2023-01-26 15:49:40.277 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-01-26 15:49:40.280 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css.map - -
+2023-01-26 15:49:40.297 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-01-26 15:49:40.300 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2023-01-26 15:49:40.303 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 26.2582ms
+2023-01-26 15:49:40.307 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 449111 text/plain 26.8802ms
+2023-01-26 15:51:00.456 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 15:51:00.743 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 15:51:00.745 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 15:51:00.752 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 15:51:00.753 +03:00 [INF] Hosting environment: Development
+2023-01-26 15:51:00.754 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 15:51:01.608 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 15:51:01.673 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 15:51:01.725 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:05:38.310 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:05:38.612 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:05:38.614 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:05:38.618 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:05:38.619 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:05:38.620 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:05:39.173 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:05:39.239 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:05:39.297 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:05:44.149 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:05:44.314 +03:00 [INF] Executed ViewResult - view Index executed in 173.5451ms.
+2023-01-26 16:05:44.324 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 5025.0865ms
+2023-01-26 16:05:44.327 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:05:44.355 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 5183.3490ms
+2023-01-26 16:05:44.387 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-26 16:05:44.387 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-26 16:05:44.387 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-26 16:05:44.426 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-26 16:05:44.426 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-26 16:05:44.426 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-26 16:05:44.429 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 42.0260ms
+2023-01-26 16:05:44.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 43.0920ms
+2023-01-26 16:05:44.431 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 44.2536ms
+2023-01-26 16:05:44.437 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-26 16:05:44.444 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-26 16:05:44.444 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-26 16:05:44.445 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-26 16:05:44.448 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 10.3278ms
+2023-01-26 16:05:44.449 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-26 16:05:44.451 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-26 16:05:44.452 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 8.7636ms
+2023-01-26 16:05:44.452 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:05:44.454 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 9.3413ms
+2023-01-26 16:05:44.458 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.0542ms
+2023-01-26 16:05:44.465 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:05:44.481 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.9495ms
+2023-01-26 16:06:39.046 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:06:39.342 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:06:39.343 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:06:39.348 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:06:39.349 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:06:39.350 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:06:39.870 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:06:39.940 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:06:39.979 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:06:42.677 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:06:42.832 +03:00 [INF] Executed ViewResult - view Index executed in 159.2741ms.
+2023-01-26 16:06:42.839 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2858.8529ms
+2023-01-26 16:06:42.842 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:06:42.864 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 3001.8083ms
+2023-01-26 16:06:42.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-26 16:06:42.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:06:42.884 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-26 16:06:42.884 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-26 16:06:42.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-26 16:06:42.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-26 16:06:42.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-26 16:06:42.894 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:06:42.899 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 14.0292ms
+2023-01-26 16:06:42.936 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-26 16:06:42.936 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-26 16:06:42.936 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-26 16:06:42.936 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-26 16:06:42.939 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 54.9648ms
+2023-01-26 16:06:42.936 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-26 16:06:42.936 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-26 16:06:42.937 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 54.1075ms
+2023-01-26 16:06:42.946 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 62.7146ms
+2023-01-26 16:06:42.946 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 63.4592ms
+2023-01-26 16:06:42.946 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 63.5031ms
+2023-01-26 16:06:42.947 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 63.8016ms
+2023-01-26 16:06:42.951 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.8353ms
+2023-01-26 16:07:25.456 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:07:25.974 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:07:25.982 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:07:25.988 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:07:25.989 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:07:25.990 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:07:26.759 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:07:26.875 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:07:26.920 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:07:31.098 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:07:31.236 +03:00 [INF] Executed ViewResult - view Index executed in 143.1918ms.
+2023-01-26 16:07:31.242 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 4319.6668ms
+2023-01-26 16:07:31.243 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:07:31.262 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 4513.9122ms
+2023-01-26 16:07:31.282 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-26 16:07:31.283 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:07:31.282 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-26 16:07:31.282 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-26 16:07:31.282 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-26 16:07:31.283 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-26 16:07:31.282 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-26 16:07:31.297 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 13.5368ms
+2023-01-26 16:07:31.321 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:07:31.337 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-26 16:07:31.337 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-26 16:07:31.337 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-26 16:07:31.337 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-26 16:07:31.337 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-26 16:07:31.337 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-26 16:07:31.339 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 56.6576ms
+2023-01-26 16:07:31.340 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 57.8961ms
+2023-01-26 16:07:31.341 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 59.4238ms
+2023-01-26 16:07:31.343 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 61.2295ms
+2023-01-26 16:07:31.344 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 61.2300ms
+2023-01-26 16:07:31.346 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 63.5306ms
+2023-01-26 16:07:31.348 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.0939ms
+2023-01-26 16:08:29.297 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:08:29.690 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:08:29.692 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:08:29.697 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:08:29.699 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:08:29.701 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:08:30.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:08:30.376 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:08:30.412 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:08:34.674 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:08:34.819 +03:00 [INF] Executed ViewResult - view Index executed in 148.3284ms.
+2023-01-26 16:08:34.827 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 4411.7739ms
+2023-01-26 16:08:34.829 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:08:34.855 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 4559.6901ms
+2023-01-26 16:08:34.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-26 16:08:34.880 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:08:34.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-26 16:08:34.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-26 16:08:34.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-26 16:08:34.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-26 16:08:34.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-26 16:08:34.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 12.4262ms
+2023-01-26 16:08:34.899 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:08:34.920 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-26 16:08:34.920 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-26 16:08:34.920 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-26 16:08:34.920 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-26 16:08:34.926 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 47.4743ms
+2023-01-26 16:08:34.920 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-26 16:08:34.920 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-26 16:08:34.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 45.7715ms
+2023-01-26 16:08:34.927 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 48.7824ms
+2023-01-26 16:08:34.929 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 50.3949ms
+2023-01-26 16:08:34.936 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 57.9148ms
+2023-01-26 16:08:34.943 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 65.1591ms
+2023-01-26 16:08:34.944 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.5667ms
+2023-01-26 16:10:14.086 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:10:14.372 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:10:14.374 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:10:14.378 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:10:14.379 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:10:14.379 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:10:15.043 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:10:15.113 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:10:15.156 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:10:17.679 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:10:17.823 +03:00 [INF] Executed ViewResult - view Index executed in 146.5875ms.
+2023-01-26 16:10:17.830 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2671.3729ms
+2023-01-26 16:10:17.831 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:10:17.867 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 2825.4888ms
+2023-01-26 16:10:17.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-26 16:10:17.891 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-26 16:10:17.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-26 16:10:17.884 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-26 16:10:17.884 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-26 16:10:17.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-26 16:10:17.899 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:10:17.908 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:10:17.913 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 14.7032ms
+2023-01-26 16:10:17.935 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-26 16:10:17.943 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-26 16:10:17.943 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-26 16:10:17.947 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 62.5770ms
+2023-01-26 16:10:17.935 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-26 16:10:17.945 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 61.2422ms
+2023-01-26 16:10:17.944 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-26 16:10:17.935 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-26 16:10:17.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 64.7223ms
+2023-01-26 16:10:17.952 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 68.0710ms
+2023-01-26 16:10:17.954 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 70.9141ms
+2023-01-26 16:10:17.959 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 75.7454ms
+2023-01-26 16:10:17.959 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.4195ms
+2023-01-26 16:10:50.576 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:10:50.876 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:10:50.877 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:10:50.881 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:10:50.883 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:10:50.884 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:10:51.809 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:10:51.863 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:10:51.905 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:10:54.369 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:10:54.515 +03:00 [INF] Executed ViewResult - view Index executed in 146.3074ms.
+2023-01-26 16:10:54.527 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2618.6907ms
+2023-01-26 16:10:54.532 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:10:54.575 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 2769.6537ms
+2023-01-26 16:10:54.615 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-26 16:10:54.615 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-26 16:10:54.626 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-26 16:10:54.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:10:54.615 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-26 16:10:54.651 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 35.3026ms
+2023-01-26 16:10:54.615 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-26 16:10:54.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-26 16:10:54.651 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:10:54.700 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-26 16:10:54.700 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-26 16:10:54.700 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-26 16:10:54.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 95.2315ms
+2023-01-26 16:10:54.700 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-26 16:10:54.700 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-26 16:10:54.700 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-26 16:10:54.714 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 99.4273ms
+2023-01-26 16:10:54.715 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 98.9345ms
+2023-01-26 16:10:54.721 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 105.1996ms
+2023-01-26 16:10:54.722 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 107.4206ms
+2023-01-26 16:10:54.725 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 97.7167ms
+2023-01-26 16:10:54.736 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.8741ms
+2023-01-26 16:11:37.704 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:11:37.977 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:11:37.979 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:11:37.984 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:11:37.985 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:11:37.987 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:11:38.487 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:11:38.587 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:11:38.622 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:11:41.015 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:11:41.144 +03:00 [INF] Executed ViewResult - view Index executed in 137.5114ms.
+2023-01-26 16:11:41.152 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2527.3276ms
+2023-01-26 16:11:41.155 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:11:41.185 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 2704.5014ms
+2023-01-26 16:11:41.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-26 16:11:41.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-26 16:11:41.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-26 16:11:41.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-26 16:11:41.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-26 16:11:41.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-26 16:11:41.213 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:11:41.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:11:41.230 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 17.6212ms
+2023-01-26 16:11:41.272 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-26 16:11:41.272 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-26 16:11:41.272 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-26 16:11:41.282 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-26 16:11:41.282 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-26 16:11:41.282 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-26 16:11:41.283 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 71.7977ms
+2023-01-26 16:11:41.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 74.6613ms
+2023-01-26 16:11:41.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 74.8943ms
+2023-01-26 16:11:41.291 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 79.9368ms
+2023-01-26 16:11:41.291 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.3928ms
+2023-01-26 16:11:41.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 81.6592ms
+2023-01-26 16:11:41.294 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 83.0834ms
+2023-01-26 16:18:01.674 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:18:02.149 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:18:02.152 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:18:02.160 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:18:02.162 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:18:02.163 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:18:03.619 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:18:03.724 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:18:03.830 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:18:06.617 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:18:06.678 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2841.7393ms
+2023-01-26 16:18:06.684 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:18:06.690 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'Newtonsoft.Json.Linq.JArray', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserListDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method11(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 16:18:06.941 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 3327.8893ms
+2023-01-26 16:18:07.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:18:07.047 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:18:07.057 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 9.8583ms
+2023-01-26 16:18:07.085 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.5406ms
+2023-01-26 16:20:43.751 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:20:44.127 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:20:44.129 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:20:44.133 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:20:44.134 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:20:44.135 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:20:45.143 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:20:45.241 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:20:45.337 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:20:47.924 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:20:47.988 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2642.9886ms
+2023-01-26 16:20:47.994 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:20:48.000 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'Newtonsoft.Json.Linq.JArray', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserListDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method11(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 16:20:48.211 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 3071.8942ms
+2023-01-26 16:20:48.237 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:20:48.237 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:20:48.245 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 8.1732ms
+2023-01-26 16:20:48.267 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.5056ms
+2023-01-26 16:22:03.848 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:22:04.127 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:22:04.128 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:22:04.132 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:22:04.133 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:22:04.133 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:22:04.950 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:22:05.026 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:22:05.075 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:22:07.625 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:22:07.690 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2605.9282ms
+2023-01-26 16:22:07.695 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:22:07.703 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'Newtonsoft.Json.Linq.JArray', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserListDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method11(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 16:22:07.917 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 2969.5750ms
+2023-01-26 16:22:07.937 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:22:07.937 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:22:07.947 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 9.6470ms
+2023-01-26 16:22:07.965 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.3871ms
+2023-01-26 16:25:19.077 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:25:19.438 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:25:19.439 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:25:19.443 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:25:19.444 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:25:19.445 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:25:20.105 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:25:20.179 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:25:20.231 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:25:22.768 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:25:22.823 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2585.5011ms
+2023-01-26 16:25:22.829 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:25:22.834 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'Newtonsoft.Json.Linq.JArray', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserListDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method11(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 16:25:23.033 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 2934.0008ms
+2023-01-26 16:25:23.067 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:25:23.069 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:25:23.080 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 14.2998ms
+2023-01-26 16:25:23.114 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.4342ms
+2023-01-26 16:26:37.194 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:26:37.471 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:26:37.472 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:26:37.476 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:26:37.476 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:26:37.477 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:26:38.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:26:38.273 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:26:38.321 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:28:07.519 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:28:07.815 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:28:07.816 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:28:07.822 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:28:07.823 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:28:07.824 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:28:08.746 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:28:08.815 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:28:08.849 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:28:09.916 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:28:09.965 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 1106.943ms
+2023-01-26 16:28:09.969 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:28:09.976 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[EntityLayer.Concrete.User]', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserListDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method11(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 16:28:10.158 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 1414.9388ms
+2023-01-26 16:28:10.192 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:28:10.192 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:28:10.199 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.7320ms
+2023-01-26 16:28:10.223 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.4975ms
+2023-01-26 16:33:07.583 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:33:07.903 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:33:07.904 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:33:07.908 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:33:07.909 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:33:07.910 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:33:08.656 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:33:08.711 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:33:08.759 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:33:10.054 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:33:10.099 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 1333.3597ms
+2023-01-26 16:33:10.103 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:33:10.107 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[EntityLayer.Concrete.User]', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserListDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method11(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 16:33:10.264 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 1609.6016ms
+2023-01-26 16:33:10.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:33:10.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:33:10.299 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.6177ms
+2023-01-26 16:33:10.318 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.9918ms
+2023-01-26 16:44:44.198 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:44:44.571 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:44:44.573 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:44:44.578 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:44:44.579 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:44:44.580 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:44:45.991 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:44:46.116 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:44:46.194 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:44:47.318 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:44:47.384 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 1181.8238ms
+2023-01-26 16:44:47.392 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:44:47.397 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[EntityLayer.Concrete.User]', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserListDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method11(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 16:44:47.611 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 1626.7329ms
+2023-01-26 16:44:47.642 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:44:47.642 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:44:47.651 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 9.2345ms
+2023-01-26 16:44:47.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.5322ms
+2023-01-26 16:50:39.473 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 16:50:39.840 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 16:50:39.841 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 16:50:39.845 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 16:50:39.846 +03:00 [INF] Hosting environment: Development
+2023-01-26 16:50:39.848 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 16:50:40.985 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 16:50:41.068 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:50:41.191 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 16:50:42.362 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 16:50:42.422 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 1221.5822ms
+2023-01-26 16:50:42.431 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 16:50:42.437 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[EntityLayer.Concrete.User]', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserListDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method11(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 16:50:42.690 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 1708.8063ms
+2023-01-26 16:50:42.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 16:50:42.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 16:50:42.720 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.1902ms
+2023-01-26 16:50:42.742 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.0348ms
+2023-01-26 17:01:27.614 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 17:01:28.262 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 17:01:28.278 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 17:01:28.296 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 17:01:28.298 +03:00 [INF] Hosting environment: Development
+2023-01-26 17:01:28.324 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 17:01:29.242 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 17:01:29.330 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:01:29.387 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 17:01:55.182 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 25787.5655ms
+2023-01-26 17:01:55.188 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:01:55.197 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'connectionString')
+   at MongoDB.Driver.Core.Misc.Ensure.IsNotNull[T](T value, String paramName)
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString, Boolean isInternalRepresentation, IDnsResolver dnsResolver)
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString)
+   at MongoDB.Driver.MongoUrlBuilder.Parse(String url)
+   at MongoDB.Driver.MongoUrlBuilder..ctor(String url)
+   at MongoDB.Driver.MongoUrl..ctor(String url)
+   at MongoDB.Driver.MongoClientSettings.FromConnectionString(String connectionString)
+   at MongoDB.Driver.MongoClient..ctor(String connectionString)
+   at DataAccessLayer.Concrete.EntityFramework.Context.LeaderboardDb..ctor(IOptions`1 settings) in C:\Users\Monster\source\repos\Leaderboard\DataAccessLayer\Concrete\EntityFramework\Context\LeaderboardDb.cs:line 22
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method2(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 17:01:55.489 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 26251.5163ms
+2023-01-26 17:01:55.510 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 17:01:55.510 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 17:01:55.517 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.3985ms
+2023-01-26 17:01:55.533 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.7326ms
+2023-01-26 17:20:40.512 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 17:20:40.858 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 17:20:40.859 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 17:20:40.865 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 17:20:40.867 +03:00 [INF] Hosting environment: Development
+2023-01-26 17:20:40.868 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 17:20:41.303 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 17:20:41.397 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:20:41.471 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 17:21:09.539 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 28023.9989ms
+2023-01-26 17:21:09.546 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:21:09.555 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'connectionString')
+   at MongoDB.Driver.Core.Misc.Ensure.IsNotNull[T](T value, String paramName)
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString, Boolean isInternalRepresentation, IDnsResolver dnsResolver)
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString)
+   at MongoDB.Driver.MongoUrlBuilder.Parse(String url)
+   at MongoDB.Driver.MongoUrlBuilder..ctor(String url)
+   at MongoDB.Driver.MongoUrl..ctor(String url)
+   at MongoDB.Driver.MongoClientSettings.FromConnectionString(String connectionString)
+   at MongoDB.Driver.MongoClient..ctor(String connectionString)
+   at DataAccessLayer.Concrete.EntityFramework.Context.LeaderboardDb..ctor(IOptions`1 settings) in C:\Users\Monster\source\repos\Leaderboard\DataAccessLayer\Concrete\EntityFramework\Context\LeaderboardDb.cs:line 22
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method2(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 17:21:09.754 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 28458.1392ms
+2023-01-26 17:21:09.771 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 17:21:09.771 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 17:21:09.776 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.8290ms
+2023-01-26 17:21:09.797 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.3678ms
+2023-01-26 17:22:38.744 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 17:22:39.188 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 17:22:39.190 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 17:22:39.193 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 17:22:39.194 +03:00 [INF] Hosting environment: Development
+2023-01-26 17:22:39.195 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 17:22:39.929 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 17:22:40.021 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:22:40.057 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 17:22:42.159 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 17:22:42.209 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2144.5527ms
+2023-01-26 17:22:42.213 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:22:42.219 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[EntityLayer.Concrete.User]', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserListDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method12(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 17:22:42.407 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 2482.3098ms
+2023-01-26 17:22:42.429 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 17:22:42.429 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 17:22:42.436 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 7.0607ms
+2023-01-26 17:22:42.458 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.1977ms
+2023-01-26 17:23:18.253 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 17:23:18.637 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 17:23:18.638 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 17:23:18.643 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 17:23:18.644 +03:00 [INF] Hosting environment: Development
+2023-01-26 17:23:18.645 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 17:23:19.812 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 17:23:19.944 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:23:19.997 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 17:23:22.074 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 17:23:22.114 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2109.3758ms
+2023-01-26 17:23:22.120 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:23:22.128 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[EntityLayer.Concrete.User]', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserListDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method12(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 17:23:22.278 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 2473.8962ms
+2023-01-26 17:23:22.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 17:23:22.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 17:23:22.306 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.8093ms
+2023-01-26 17:23:22.329 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.7028ms
+2023-01-26 17:23:39.171 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 17:23:39.637 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 17:23:39.649 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 17:23:39.654 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 17:23:39.656 +03:00 [INF] Hosting environment: Development
+2023-01-26 17:23:39.657 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 17:23:40.414 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 17:23:40.495 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:23:40.533 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 17:23:42.605 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 17:23:42.759 +03:00 [INF] Executed ViewResult - view Index executed in 159.8902ms.
+2023-01-26 17:23:42.767 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2232.2993ms
+2023-01-26 17:23:42.771 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:23:42.800 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 2393.3033ms
+2023-01-26 17:23:42.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-26 17:23:42.819 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-26 17:23:42.819 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-26 17:23:42.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-26 17:23:42.819 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-26 17:23:42.820 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 17:23:42.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-26 17:23:42.839 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 19.2927ms
+2023-01-26 17:23:42.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 17:23:42.880 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-26 17:23:42.880 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-26 17:23:42.880 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-26 17:23:42.880 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-26 17:23:42.885 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 66.9049ms
+2023-01-26 17:23:42.880 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-26 17:23:42.883 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 64.6132ms
+2023-01-26 17:23:42.880 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-26 17:23:42.893 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 74.9751ms
+2023-01-26 17:23:42.893 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 74.7697ms
+2023-01-26 17:23:42.894 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 75.4705ms
+2023-01-26 17:23:42.894 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.2041ms
+2023-01-26 17:23:42.898 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 79.1875ms
+2023-01-26 17:27:41.902 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 17:27:42.276 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 17:27:42.277 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 17:27:42.280 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 17:27:42.281 +03:00 [INF] Hosting environment: Development
+2023-01-26 17:27:42.282 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 17:27:43.793 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 17:27:44.368 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:27:44.564 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 17:27:46.899 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 17:27:46.943 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 2371.6345ms
+2023-01-26 17:27:46.949 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:27:46.953 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[EntityLayer.Concrete.User]', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method12(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 17:27:47.173 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 3387.8078ms
+2023-01-26 17:27:47.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 17:27:47.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 17:27:47.225 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 9.7718ms
+2023-01-26 17:27:47.259 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.0542ms
+2023-01-26 17:59:02.479 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 17:59:02.933 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 17:59:02.935 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 17:59:02.940 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 17:59:02.942 +03:00 [INF] Hosting environment: Development
+2023-01-26 17:59:02.943 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 17:59:03.742 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 17:59:03.864 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:59:03.935 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 17:59:19.484 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 17:59:19.537 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 15595.0847ms
+2023-01-26 17:59:19.541 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 17:59:19.547 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[EntityLayer.Concrete.User]', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method12(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 17:59:19.684 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 15948.9352ms
+2023-01-26 17:59:19.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 17:59:19.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 17:59:19.721 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.8727ms
+2023-01-26 17:59:19.750 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.6170ms
+2023-01-26 18:08:11.946 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-26 18:08:12.422 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-26 18:08:12.435 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-26 18:08:12.445 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-26 18:08:12.453 +03:00 [INF] Hosting environment: Development
+2023-01-26 18:08:12.457 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-26 18:08:13.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-26 18:08:13.958 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 18:08:14.073 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-26 18:08:21.931 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-26 18:08:21.996 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 7912.6325ms
+2023-01-26 18:08:22.002 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-26 18:08:22.010 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[EntityLayer.Concrete.User]', but this ViewDataDictionary instance requires a model item of type 'BusinessLayer.Dto.UserDto.UserDto'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method12(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-26 18:08:22.260 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 500 - text/html;+charset=utf-8 8451.8015ms
+2023-01-26 18:08:22.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-26 18:08:22.362 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-26 18:08:22.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 13.2737ms
+2023-01-26 18:08:22.391 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.7101ms
+2023-01-27 02:41:42.132 +03:00 [INF] User profile is available. Using 'C:\Users\Monster\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-27 02:41:43.530 +03:00 [INF] Now listening on: https://localhost:7143
+2023-01-27 02:41:43.532 +03:00 [INF] Now listening on: http://localhost:5143
+2023-01-27 02:41:43.537 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-27 02:41:43.538 +03:00 [INF] Hosting environment: Development
+2023-01-27 02:41:43.540 +03:00 [INF] Content root path: C:\Users\Monster\source\repos\Leaderboard\Leaderboard\
+2023-01-27 02:41:46.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/ - -
+2023-01-27 02:41:46.209 +03:00 [INF] Executing endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-27 02:41:46.283 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Leaderboard.Controllers.HomeController (Leaderboard).
+2023-01-27 02:41:50.432 +03:00 [INF] Executing ViewResult, running view Index.
+2023-01-27 02:41:50.642 +03:00 [INF] Executed ViewResult - view Index executed in 216.3244ms.
+2023-01-27 02:41:50.650 +03:00 [INF] Executed action Leaderboard.Controllers.HomeController.Index (Leaderboard) in 4364.9104ms
+2023-01-27 02:41:50.652 +03:00 [INF] Executed endpoint 'Leaderboard.Controllers.HomeController.Index (Leaderboard)'
+2023-01-27 02:41:50.685 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/ - - - 200 - text/html;+charset=utf-8 4561.4111ms
+2023-01-27 02:41:50.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-01-27 02:41:50.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - -
+2023-01-27 02:41:50.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - -
+2023-01-27 02:41:50.711 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-01-27 02:41:50.711 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-01-27 02:41:50.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-01-27 02:41:50.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - -
+2023-01-27 02:41:50.767 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - -
+2023-01-27 02:41:50.773 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 55.8753ms
+2023-01-27 02:41:50.780 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\css\site.css'
+2023-01-27 02:41:50.780 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\js\site.js'
+2023-01-27 02:41:50.790 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 79.7129ms
+2023-01-27 02:41:50.798 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 81.5504ms
+2023-01-27 02:41:50.780 +03:00 [INF] Sending file. Request path: '/Leaderboard.styles.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\obj\Debug\net6.0\scopedcss\bundle\Leaderboard.styles.css'
+2023-01-27 02:41:50.824 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/Leaderboard.styles.css?v=CwjzyuAHg85VgvoZX4aBn4kvsrJ9m9M_WhY2F33Z9yg - - - 200 1128 text/css 113.8892ms
+2023-01-27 02:41:50.827 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-01-27 02:41:50.827 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-01-27 02:41:50.830 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 118.7489ms
+2023-01-27 02:41:50.832 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 121.4864ms
+2023-01-27 02:41:50.844 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Monster\source\repos\Leaderboard\Leaderboard\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-01-27 02:41:50.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 136.1062ms
+2023-01-27 02:41:50.879 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 112.8291ms

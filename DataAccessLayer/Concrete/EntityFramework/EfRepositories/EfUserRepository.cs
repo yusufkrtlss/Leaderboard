@@ -1,5 +1,6 @@
 ﻿using CoreLayer.Data.Concrete;
 using DataAccessLayer.Abstarct;
+using DataAccessLayer.Concrete.EntityFramework.Context;
 using EntityLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;

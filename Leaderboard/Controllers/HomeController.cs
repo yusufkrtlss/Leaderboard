@@ -1,5 +1,4 @@
-﻿
-
+﻿using BusinessLayer.Abstract;
 using EntityLayer.Concrete;
 using Leaderboard.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -7,41 +6,50 @@ using MongoDB.Bson;
 using MongoDB.Driver;
 using Newtonsoft.Json;
 using System.Diagnostics;
+using System.Net;
 
 namespace Leaderboard.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IUserService _userService;
      
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IUserService userService)
         {
-            _logger = logger;
+            _userService = userService;
        
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            
-            /*  var database = client.GetDatabase("LeaderboardDb");
+            string url = "https://cdn.mallconomy.com/testcase/points.json";
+            using (WebClient client = new WebClient())
+            {
+                string json = client.DownloadString(url);
+                dynamic data = JsonConvert.DeserializeObject<List<User>>(json);
+                _userService.GetAllUsers();
+                return View(data);
+            }
 
-             string url = "https://cdn.mallconomy.com/testcase/points.json";
-             var jsonString = System.IO.File.ReadAllText(url);
+                /*  var database = client.GetDatabase("LeaderboardDb");
 
-             var users = JsonConvert.DeserializeObject<List<UserModel>>(jsonString);
-            var collection = database.GetCollection<User>("Test");
-             var test = new User()
-             {
-                 Id = ObjectId.GenerateNewId(),
-                 UserId = 6,
-                 TotalPoint = 250,
-                 IsApproved = true
-             };
-             collection.InsertOne(test);
-             _logger.LogInformation("Bu ilk logum");*/
-            return View();
+                 string url = "https://cdn.mallconomy.com/testcase/points.json";
+                 var jsonString = System.IO.File.ReadAllText(url);
+
+                 var users = JsonConvert.DeserializeObject<List<UserModel>>(jsonString);
+                var collection = database.GetCollection<User>("Test");
+                 var test = new User()
+                 {
+                     Id = ObjectId.GenerateNewId(),
+                     UserId = 6,
+                     TotalPoint = 250,
+                     IsApproved = true
+                 };
+                 collection.InsertOne(test);
+                 _logger.LogInformation("Bu ilk logum");*/
+               
         }
 
         public IActionResult Privacy()

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ne20huLnd3QKX4OvSLUGOOh0t7UYW3BtyRacPi25x/2ElBMeSe8WYnO+/jUV1KzcZ9FvLw61DFBehXO+qr4ChA==",
+  "dgSpecHash": "YBQIjmmLz3fMgd0SWtJSo9inT1D/ce3uruEhNqEMPWk8uh/JfDPoP52mGJwiuUGXtxVnXOIaOLGJlAyIxrGzdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Monster\\Source\\Repos\\Leaderboard\\Leaderboard\\Leaderboard.csproj",
+  "projectFilePath": "C:\\Users\\Monster\\source\\repos\\Leaderboard\\Leaderboard\\Leaderboard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Monster\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

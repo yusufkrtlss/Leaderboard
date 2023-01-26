@@ -1,6 +1,9 @@
 
+using BusinessLayer.Abstract;
+using BusinessLayer.Concrete;
 using DataAccessLayer;
-
+using DataAccessLayer.Abstarct;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.Concrete.EntityFramework.Context;
 
 using EntityLayer.Concrete;
@@ -20,7 +23,9 @@ builder.Host.UseSerilog();
 
 // Add scoped service in Program.cs
 builder.Services.AddDbContext<LeaderboardDb>();
-
+builder.Services.AddTransient<IUnitofWork, UnitofWork>();
+builder.Services.AddTransient<IUserService, UserManager>();
+builder.Services.AddTransient<ILeaderboardService, LeaderboardManager>();
 
 
 // Add services to the container.

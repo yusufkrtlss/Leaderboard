@@ -3672,9 +3672,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Monster\\Source\\Repos\\Leaderboard\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Monster\\source\\repos\\Leaderboard\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\Monster\\Source\\Repos\\Leaderboard\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectPath": "C:\\Users\\Monster\\source\\repos\\Leaderboard\\DataAccessLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Monster\\Source\\Repos\\Leaderboard\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
@@ -3693,11 +3693,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Monster\\Source\\Repos\\Leaderboard\\CoreLayer\\CoreLayer.csproj": {
-              "projectPath": "C:\\Users\\Monster\\Source\\Repos\\Leaderboard\\CoreLayer\\CoreLayer.csproj"
+            "C:\\Users\\Monster\\source\\repos\\Leaderboard\\CoreLayer\\CoreLayer.csproj": {
+              "projectPath": "C:\\Users\\Monster\\source\\repos\\Leaderboard\\CoreLayer\\CoreLayer.csproj"
             },
-            "C:\\Users\\Monster\\Source\\Repos\\Leaderboard\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\Monster\\Source\\Repos\\Leaderboard\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\Monster\\source\\repos\\Leaderboard\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\Monster\\source\\repos\\Leaderboard\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }

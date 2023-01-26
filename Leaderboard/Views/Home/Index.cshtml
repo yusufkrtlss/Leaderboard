@@ -1,8 +1,58 @@
-﻿@{
+﻿@*@using EntityLayer.Concrete
+@model BusinessLayer.Dto.UserDto.UserListDto*@
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row" id="proBanner">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Users</h4>
+                    <div class="card-tools">
+
+                        <div class="input-group input-group-sm float-sm-end" style="width:200px;">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-append">
+                                <div class="btn btn-primary">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-body table-responsive p-0">
+                    
+                    <table class="table table-hover text-nowrap">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>User Id</th>
+                                <th>Approved </th>
+                                <th>Point</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        @*    @foreach (var item in Model.Users)
+                            {
+                                User user = new User() {
+                                    <tr>
+                                        <td>ID = @item.Id</td>
+                                        <td>User Id = @item.UserId</td>
+                                        <td>Approved = @item.IsApproved</td>
+                                        <td>Point = @item.TotalPoint</td>
+                                    </tr>
+                                };
+                            }*@
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
